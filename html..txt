@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Art Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="gallery">
+            <h2>Artworks for Sale</h2>
+            <div class="art-item">
+                <img src="art1.jpg" alt="Artwork 1">
+                <p>Artwork 1 - $200</p>
+                <button onclick="addToCart('Artwork 1', 200)">Add to Cart</button>
+            </div>
+            <div class="art-item">
+                <img src="art2.jpg" alt="Artwork 2">
+                <p>Artwork 2 - $300</p>
+                <button onclick="addToCart('Artwork 2
+
